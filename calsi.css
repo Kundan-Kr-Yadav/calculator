@@ -1,0 +1,95 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgb(218, 17, 17);
+
+  }
+
+  h1 {
+      text-align: center;
+      
+  }
+
+  .container {
+      background-color: rgb(46, 46, 46);
+      margin-top: 140px;
+      height: 350px;
+      width: 300px;
+      display: grid;
+      grid-template-columns: 60px 60px 60px 60px;
+      grid-template-rows: 60px 60px 60px 60px 60px;
+      justify-content: center;
+      align-content: center;
+      gap: 4px;
+      cursor: pointer;
+      border-radius: 10px;
+      box-shadow: -8px -8px 15px rgba(238, 232, 232, 0.1), 5px 5px 15px rgba(163, 160, 160, 0.2);
+  }
+
+  .item {
+
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(8, 8, 8);
+      color: white;
+      border-radius: 14px;
+      font-size: 25px;
+      cursor: pointer;
+      border: rgb(8, 8, 8) ;
+
+  }
+
+
+  .third {
+      background-color: rgb(69, 68, 68);
+      color: white;
+      font-size: 45px;
+  }
+
+  .orang1 {
+      background-color: rgb(220, 65, 18);
+  }
+
+  .item1 {
+      grid-column: 1 / 4;
+      text-align: right;
+      justify-content: right;
+  }
+
+  .oprator {
+    background-color: rgb(252, 159, 72);
+     box-shadow: none;
+      outline: 0;
+      border: rgb(252, 159, 72) ;
+  }
+
+  .cleardisplay{
+    display: grid;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(252, 159, 72) ;
+      color: white;
+      border-radius: 14px;
+      font-size: 25px;
+      cursor: pointer;
+  }
+ #equal{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(252, 159, 72);
+    color: white;
+    border-radius: 14px;
+    font-size: 25px;
+    cursor: pointer;
+ }
